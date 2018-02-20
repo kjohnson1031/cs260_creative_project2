@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Book Dragons</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li> <a href="index.html">
+          <img src="https://cdn.pixabay.com/photo/2017/09/16/01/16/dragon-2754284_960_720.png"
+          alt="logo" height="50px"/></a></li>
+        <li> <a href="authors.html">Authors</a></li>
+        <li class="active"> <a href="books.html">Books</a></li>
+      </ul>
+    </nav>
+
+    <a href="https://github.com/kjohnson1031/cs260_creative_project2"><footer>
+      <p>
+        Click here to visit the github repository!</p>
+    </footer>
+  </a>
+
+    <h1>Books</h1>
+
+    <p>You can also look up a book by its title or topic.</p>
+
+    <form>
+      <label>Enter a book title or topic</label>
+      <input id="titleInput" type="text"></input><br/>
+      <input id="titleSubmit" type="submit" value="Go!"></input>
+    </form>
+    <div id="booksResults"></div>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script text="type/javascript" src="script.js">
+    </script>
+
+  </body>
+</html>

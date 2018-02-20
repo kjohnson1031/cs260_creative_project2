@@ -1,0 +1,54 @@
+section {
+ display: flex;
+ padding: 10px;
+}
+
+article{
+    padding: 20px;
+}
+
+body{
+    background-color: DarkSalmon;
+    height: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+    height: 75px;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    background-color: #111;
+    text-decoration: none;
+}
+
+nav .active {
+    background-color: Crimson;
+}
+
+footer{
+    background-color: Silver;
+    text-align: center;
+    min-height: 100%;
+}
+
+p{
+    text-decoration: none;
+}
